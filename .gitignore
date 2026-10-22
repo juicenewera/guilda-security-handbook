@@ -5,3 +5,5 @@
 *.dump
 secrets/
 state.json
+__pycache__/
+*.pyc
