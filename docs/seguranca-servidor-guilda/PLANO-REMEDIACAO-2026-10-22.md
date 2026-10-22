@@ -4,7 +4,8 @@ Este plano transforma a auditoria baseada no Guia KipperDev em trabalho executá
 
 ## Fase 0 — Contenção e autorização
 
-**Responsável:** GSD Security Auditor + operador da infraestrutura  
+**Responsável:** GSD Security Auditor + operador da infraestrutura
+
 **Prioridade:** crítica · **bloqueia publicação**
 
 - Rotacionar qualquer segredo que apareceu no histórico Git ou em relatórios antigos.
@@ -15,7 +16,8 @@ Este plano transforma a auditoria baseada no Guia KipperDev em trabalho executá
 
 ## Fase 1 — Limites de entrada e payload
 
-**Responsável:** GSD App Security  
+**Responsável:** GSD App Security
+
 **Prioridade:** alta
 
 - Limitar corpo no Caddy e no runtime antes de `json()`/`formData()`.
@@ -26,7 +28,8 @@ Este plano transforma a auditoria baseada no Guia KipperDev em trabalho executá
 
 ## Fase 2 — Autorização, RLS e recursos pagos
 
-**Responsável:** GSD Auth/RLS  
+**Responsável:** GSD Auth/RLS
+
 **Prioridade:** alta
 
 - Criar contas A/B de teste.
@@ -37,7 +40,8 @@ Este plano transforma a auditoria baseada no Guia KipperDev em trabalho executá
 
 ## Fase 3 — SSRF, redirects e abuso
 
-**Responsável:** GSD Production Auditor  
+**Responsável:** GSD Production Auditor
+
 **Prioridade:** alta
 
 - Aplicar allowlist de hosts em `join_url`.
@@ -49,7 +53,8 @@ Este plano transforma a auditoria baseada no Guia KipperDev em trabalho executá
 
 ## Fase 4 — Logs, Telegram e privacidade
 
-**Responsável:** GSD Privacy/Data + GSD Sentinel  
+**Responsável:** GSD Privacy/Data + GSD Sentinel
+
 **Prioridade:** alta
 
 - Remover PII, URI completa, username SSH e dados de membros dos alertas.
@@ -61,7 +66,8 @@ Este plano transforma a auditoria baseada no Guia KipperDev em trabalho executá
 
 ## Fase 5 — Infraestrutura e supply chain
 
-**Responsável:** GSD VPS/Infra  
+**Responsável:** GSD VPS/Infra
+
 **Prioridade:** média/alta
 
 - Fixar imagens Docker por versão e digest.
@@ -72,7 +78,8 @@ Este plano transforma a auditoria baseada no Guia KipperDev em trabalho executá
 
 ## Fase 6 — Backup e recuperação
 
-**Responsável:** GSD Operations  
+**Responsável:** GSD Operations
+
 **Prioridade:** média
 
 - Confirmar backup, retenção e criptografia.
@@ -83,7 +90,8 @@ Este plano transforma a auditoria baseada no Guia KipperDev em trabalho executá
 
 ## Fase 7 — Observabilidade e resposta
 
-**Responsável:** GSD Sentinel/Incident  
+**Responsável:** GSD Sentinel/Incident
+
 **Prioridade:** média
 
 - Testar Sentinela, Telegram, Fail2ban, watchdog e uptime externo.
@@ -94,7 +102,8 @@ Este plano transforma a auditoria baseada no Guia KipperDev em trabalho executá
 
 ## Fase 8 — Reauditoria e publicação
 
-**Responsável:** GSD Orchestrator  
+**Responsável:** GSD Orchestrator
+
 **Prioridade:** obrigatória
 
 - Repetir auditprod no commit corrigido.
