@@ -1,8 +1,11 @@
 # Auditoria de segurança baseada no Guia KipperDev
 
-**Data:** 2026-10-22  
-**Escopo:** repositório local da Guilda, operação documentada e evidências disponíveis no código.  
-**Fonte:** [KipperDev - Guia Segurança Vibe Coding](https://drive.google.com/file/d/1Sv9C1SHkSKQX6zAMwUvrqUe7S9nY-T59/view?usp=drivesdk)  
+**Data:** 2026-10-22
+
+**Escopo:** repositório local da Guilda, operação documentada e evidências disponíveis no código.
+
+**Fonte:** [KipperDev - Guia Segurança Vibe Coding](https://drive.google.com/file/d/1Sv9C1SHkSKQX6zAMwUvrqUe7S9nY-T59/view?usp=drivesdk)
+
 **Método:** leitura do guia, auditoria local read-only, revisão dos relatórios `auditprod` e análise paralela por três agentes GSD.
 
 > Este relatório não é certificação e não prova que a produção está segura. O estado do Supabase, GitHub Actions, firewall, backups, containers em execução e credenciais precisa ser confirmado no ambiente autorizado.
