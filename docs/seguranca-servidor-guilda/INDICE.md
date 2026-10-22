@@ -12,9 +12,6 @@ Este diretório é a porta de entrada para a documentação pública de seguran�
 | [TELEGRAM-SENTINELA.md](./TELEGRAM-SENTINELA.md) | Bot Telegram, alertas e operação assistida |
 | [SKILL.md](./SKILL.md) | Skill de auditoria ofensiva usada no projeto |
 | [SKILLS-RECOMENDADAS.md](./SKILLS-RECOMENDADAS.md) | Skills complementares e método de raciocínio |
-| [AUDITORIA-IMPLEMENTACAO.md](./AUDITORIA-IMPLEMENTACAO.md) | O que está implementado, evidência e pendências |
-| [AUDITORIA-KIPPERDEV-2026-10-22.md](./AUDITORIA-KIPPERDEV-2026-10-22.md) | Auditoria completa baseada no guia do Drive e plano por etapas |
-| [PLANO-REMEDIACAO-2026-10-22.md](./PLANO-REMEDIACAO-2026-10-22.md) | Roadmap de correção com responsáveis e critérios de aceite |
 
 ## Código operacional
 
