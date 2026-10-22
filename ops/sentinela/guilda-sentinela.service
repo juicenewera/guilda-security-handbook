@@ -1,0 +1,13 @@
+[Unit]
+Description=Sentinela da Guilda (alertas de invasão no Telegram/WhatsApp)
+After=network-online.target docker.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /opt/guilda-sentinela/sentinela.py
+# Só lê logs/estado; nada além da pasta de estado é gravável.
+ProtectSystem=strict
+ReadWritePaths=/var/lib/guilda-sentinela
+PrivateTmp=true
+NoNewPrivileges=true
+TimeoutStartSec=90
